@@ -2,6 +2,10 @@
 
 This is a simple website to generate letters to UN, NATO, etc. representatives, urging them to take action in the current Ukraine war.
 
+## Contributing
+
+If you want to add or change letter templates, please add them in the ```public/templates/letters``` folder.
+
 ### Templates used
 
 All templates used can be found here for further reference:

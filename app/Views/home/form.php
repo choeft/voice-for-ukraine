@@ -12,7 +12,7 @@
                         <select name="organisation" class="form-control">
                             <option value="un">UN</option>
                             <option value="nato">NATO</option>
-                            <option value="eu_parliament">Representatives of EU parliament</option>
+                            <option value="eu">Representatives of EU parliament</option>
                         </select>
                     </div>
                 </div>
@@ -27,16 +27,16 @@
                     <div class="form-group form-row">
                         <div class="col-sm-6">
                             <label>Firstname:</label>
-                            <input type="text" name="firstname" class="form-control">
+                            <input type="text" required name="firstname" class="form-control">
                         </div>
                         <div class="col-sm-6">
                             <label>Lastname:</label>
-                            <input type="text" name="lastname" class="form-control">
+                            <input type="text" required name="lastname" class="form-control">
                         </div>
                     </div>
                     <div class="form-group">
                         <label>Nationality:</label>
-                        <select name="nationality" class="form-control">
+                        <select name="nationality" required class="form-control">
                             <option value="">-- select one --</option>
                             <option value="afghan">Afghan</option>
                             <option value="albanian">Albanian</option>
@@ -259,3 +259,5 @@
     </div>
 
 </form>
+
+<a href="/" class="mt-3 btn btn-primary btn-block" role="button">Create another template</a>

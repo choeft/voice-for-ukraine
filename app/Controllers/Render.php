@@ -13,6 +13,8 @@ class Render extends BaseController
             'organisation' => $this->request->getVar('organisation'),
             'language' => $this->request->getVar('language'),
             'firstname' => $this->request->getVar('firstname'),
+            'lastname' => $this->request->getVar('lastname'),
+            'nationality' => $this->request->getVar('nationality'),
         ];
 
         //Load template

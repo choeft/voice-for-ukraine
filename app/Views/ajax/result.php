@@ -1,7 +1,11 @@
 <h5>Link to contact form:</h5>
+<?php if(strpos($link, "http") !== 0) : ?>
+<p><?= esc($link) ?></p>
+<?php else : ?>
 <p>To open the contact form and contact your representative, click here:
     <a href="<?= esc($link) ?>" target="_blank">contact form</a>.
 </p>
+<?php endif; ?>
 <hr>
 <h5>Subject line</h5>
 <p id="subjectline_clipboard"><?= esc($headline) ?></p>

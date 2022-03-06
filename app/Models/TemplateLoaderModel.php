@@ -6,7 +6,7 @@ class TemplateLoaderModel
 {
 
     protected $link;
-    protected $headline;
+    protected $subjectline;
     protected $body;
 
     /**
@@ -20,10 +20,17 @@ class TemplateLoaderModel
         $filename = $data['organisation'] . '_' . $data['language'] . '.txt';
         $text = nl2br(file_get_contents('templates/letters/' . $filename));
 
-        //replace placeholders for names etc.
-        //...
+        $linkHelper = new LinkHelperModel();
+        $subjectlineHelper = new SubjectlineHelperModel();
+        $nationalityHelper = new NationalityHelperModel();
 
-        $this->headline = 'Test';
+        $data['nationality'] = $nationalityHelper->translateNationality($data['nationality']);
+
+        //replace placeholders for names etc.
+        $text = $this->insertPlaceholders($data, $text);
+
+        $this->link = $linkHelper->getLink($data['organisation'], $data['language']);
+        $this->subjectline = $subjectlineHelper->getSubjectline($data['organisation'], $data['language']);
         $this->body = $text;
 
         return true;
@@ -38,10 +45,19 @@ class TemplateLoaderModel
 
         return [
             'link' => $this->link,
-            'headline' => $this->headline,
+            'headline' => $this->subjectline,
             'body' => $this->body
         ];
 
+    }
+
+    private function insertPlaceholders(array $data, string $text)
+    {
+        $text = str_replace("[FIRSTNAME]", $data['firstname'], $text);
+        $text = str_replace("[LASTNAME]", $data['lastname'], $text);
+        $text = str_replace("[NATIONALITY]", $data['nationality'], $text);
+
+        return $text;
     }
 
 }
