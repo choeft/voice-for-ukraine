@@ -25,6 +25,17 @@
     </div>
     <!--Grid row-->
 </div>
+
+<footer class="text-center text-white mt-3" style="background-color: #f1f1f1;">
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-dark" href="https://solidaritywithukraine.eu/">solidaritywithukraine.eu</a><br/>
+        <a class="text-dark" href="https://www.instagram.com/solidarity.with.ukraine/">Insta: @solidarity.with.ukraine</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

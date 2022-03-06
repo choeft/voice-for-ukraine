@@ -59,7 +59,7 @@
 
                     $.ajax({
                         type: "POST",
-                        url: '/voice-for-ukraine/public/render',
+                        url: '/render',
                         data: $('#accordion').serialize(), // serializes the form's elements.
                         success: function(data)
                         {

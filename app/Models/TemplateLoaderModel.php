@@ -24,7 +24,7 @@ class TemplateLoaderModel
         $subjectlineHelper = new SubjectlineHelperModel();
         $nationalityHelper = new NationalityHelperModel();
 
-        $data['nationality'] = $nationalityHelper->translateNationality($data['nationality']);
+        $data['nationality'] = $nationalityHelper->translateNationality($data['language']);
 
         //replace placeholders for names etc.
         $text = $this->insertPlaceholders($data, $text);

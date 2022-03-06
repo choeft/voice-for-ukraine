@@ -7,12 +7,14 @@ class LinkHelperModel
     const LINKS = [
         'un' => [
             'de' => 'https://new-york-un.diplo.de/un-en/botschaft/kontakt-formular',
+            'en' => 'No contact form available. Please write to your UN representative via mail.',
         ],
         'nato' => [
-            'de' => 'https://nato.diplo.de/nato-de/service/kontakt-formular'
+            'de' => 'https://nato.diplo.de/nato-de/service/kontakt-formular',
+            'en' => 'No contact form available. Please write to your NATO representative via mail.',
         ],
         'eu' => [
-            'de' => 'No contact form available. Please write to your EU representative via mail. Find the list here: https://www.cducsu.eu/abgeordnete'
+            'de' => 'No contact form available. Please write to your EU representative via mail. Find the list here: https://www.cducsu.eu/abgeordnete',
         ]
     ];
 
