@@ -11,7 +11,7 @@ class Render extends BaseController
         //Get Form Data
         $data = [
             'organisation' => $this->request->getVar('organisation'),
-            'language' => $this->request->getVar('language'),
+            'nationality' => $this->request->getVar('nationality'),
             'firstname' => $this->request->getVar('firstname'),
             'lastname' => $this->request->getVar('lastname'),
         ];

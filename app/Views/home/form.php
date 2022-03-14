@@ -36,9 +36,18 @@
                     </div>
                     <div class="form-group">
                         <label>Nationality / Language:</label>
-                        <select name="language" required class="form-control">
+                        <select name="nationality" required class="form-control">
                             <option value="">-- select one --</option>
-                            <option value="de">german</option>
+                            <option value="de">germany (german)</option>
+                            <option value="at">austria (german)</option>
+                            <option value="ch_de">switzerland (german)</option>
+                            <option value="ch_fr">switzerland (french)</option>
+                            <option value="uk">united kingdom (english)</option>
+                            <option value="us">united states (english)</option>
+                            <option value="ca">canada (english)</option>
+                            <option value="fr">france (french)</option>
+                            <option value="es">spain (spanish)</option>
+                            <option value="pl">poland (polish)</option>
                             <option value="en">english default template</option>
                         </select>
                     </div>

@@ -1,10 +1,12 @@
 <h5>Link to contact form:</h5>
-<?php if(strpos($link, "http") !== 0) : ?>
-<p><?= esc($link) ?></p>
+<?php if(strpos($link, "http") === 0) : ?>
+    <p>To open the contact form and contact your representative, click here:
+        <a href="<?= esc($link) ?>" target="_blank">contact form</a>.
+    </p>
+<?php elseif(strpos($link, "@") > 1) : ?>
+    <p>Please write to your representative via e-mail: <a href="mailto:<?= esc($link) ?>"><?= esc($link) ?></a></p>
 <?php else : ?>
-<p>To open the contact form and contact your representative, click here:
-    <a href="<?= esc($link) ?>" target="_blank">contact form</a>.
-</p>
+    <p><?= esc($link) ?></p>
 <?php endif; ?>
 <hr>
 <h5>Subject line</h5>

@@ -6,6 +6,8 @@ class NationalityHelperModel
 {
     const NATIONALITIES = [
         'de' => 'deutscher',
+        'at' => 'österreichischer',
+        'ch_de' => 'schweizer',
     ];
 
     public function translateNationality($language) {

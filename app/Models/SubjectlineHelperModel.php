@@ -7,7 +7,9 @@ class SubjectlineHelperModel
     const SUBJECTLINES = [
         'un' => [
             'de' => 'Deutsche Haltung im neuen europäischen Krieg',
-            'en' => 'UN is failing to secure peace on the European continent',
+            'fr' => 'Notre position concernant la guerre en Ukraine',
+            'pl' => 'Nasze stanowisko w sprawie wojny na Ukrainie',
+            'en' => 'Our stance on the war in Ukraine',
         ],
         'nato' => [
             'de' => 'Deutsche Haltung im neuen europäischen Krieg',
