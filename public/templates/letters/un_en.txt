@@ -1,4 +1,4 @@
-Dear Mr./Mrs.  ___,
+Dear Mr./Mrs. [ADDRESSEE_NAME],
 
 My name is [FIRSTNAME] [LASTNAME] and I am a [NATIONALITY] citizen.
 

@@ -14,6 +14,7 @@ class AddresseeHelperModel
         'fr' => 'Nicolas de Rivière',
         'es' => 'Esther Monterrubio Villar',
         'pl' => 'Krzystof Szczerski',
+        'ca' => 'Bob Rae',
     ];
 
     public function getAddressee($nationality) {
