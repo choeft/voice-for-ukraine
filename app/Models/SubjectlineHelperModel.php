@@ -17,7 +17,9 @@ class SubjectlineHelperModel
         ],
         'eu' => [
             'de' => 'Deutsche Haltung im neuen europäischen Krieg',
-            'en' => 'EU is failing to secure peace on the European continent',
+            'en' => 'Our stance on the war in Ukraine',
+            'fr' => 'Notre position concernant la guerre en Ukraine',
+            'pl' => 'Nasze stanowisko w sprawie wojny na Ukrainie',
         ],
     ];
 

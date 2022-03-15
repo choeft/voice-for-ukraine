@@ -67,7 +67,7 @@
                             $("#template_modal").modal('show');
                         },
                         error: function (data) {
-                            alert('Something went wrong. Please try again.')
+                            alert('No template for the chosen combination available. Please change parameters and try again.')
                         }
                     });
 

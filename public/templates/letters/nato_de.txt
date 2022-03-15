@@ -1,4 +1,4 @@
-Sehr geehrter Herr König,
+Sehr geehrter [ADDRESSEE_NAME],
 
 Mein Name ist [FIRSTNAME] [LASTNAME] und ich bin [NATIONALITY] Bürger. Ich schreibe Ihnen, weil es der NATO nicht gelingt, den Frieden auf dem europäischen Kontinent zu sichern.
 

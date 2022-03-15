@@ -29,7 +29,7 @@ class TemplateLoaderModel
         $nationalityHelper = new NationalityHelperModel();
         $addresseeHelper = new AddresseeHelperModel();
 
-        $data['addressee_name'] = $addresseeHelper->getAddressee($data['nationality']);
+        $data['addressee_name'] = $addresseeHelper->getAddressee($data['organisation'], $data['nationality']);
         $data['nationality_text'] = $nationalityHelper->translateNationality($data['language']);
 
         //replace placeholders for names etc.

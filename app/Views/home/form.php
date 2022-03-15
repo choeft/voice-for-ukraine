@@ -48,6 +48,15 @@
                             <option value="fr">france (french)</option>
                             <option value="es">spain (spanish)</option>
                             <option value="pl">poland (polish)</option>
+                            <option value="it">italy (english)</option>
+                            <option value="nl">netherlands (english)</option>
+                            <option value="dk">denmark (english)</option>
+                            <option value="be">belgium (english)</option>
+                            <option value="no">norway (english)</option>
+                            <option value="is">iceland (english)</option>
+                            <option value="po">portugal (english)</option>
+                            <option value="ro">romania (english)</option>
+                            <option value="hu">hungary (english)</option>
                             <option value="en">english default template</option>
                         </select>
                     </div>
